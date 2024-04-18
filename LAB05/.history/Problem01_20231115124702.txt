@@ -1,0 +1,7 @@
+Problem 1
+1. The base case of this recursive function is when base is equal to limit. In this case, it returns 1.
+2. The recursive case is when base is less than limit. In this case, it calls itself with an incremented base and multiplies the current base with the result of the recursive call.
+3. 
+a. System.out.print(puzzle(14,10));
+This call has base (14) greater than limit (10), so it will return -1.
+Output: -1

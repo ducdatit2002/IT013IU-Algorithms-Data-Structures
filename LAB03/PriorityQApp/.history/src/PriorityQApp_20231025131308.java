@@ -1,0 +1,5 @@
+To display the queue, a new method displayQueue() is added to the PriorityQ class. This method iterates through the queue and prints each element.
+
+To modify the insert() method to insert the new item at the rear, we can simply add the new item to the end of the array and increment the nItems counter. This is more efficient than the current implementation because it avoids the need to shift elements in the array.
+
+To use a priority queue instead of an ordinary one, we can replace the PriorityQ class with a built-in Java PriorityQueue class. This class automatically orders elements based on their natural ordering or a specified comparator. We can then modify the insert() method to use the add() method of the PriorityQueue class, and modify the remove() method to use the poll() method of the PriorityQueue class.
